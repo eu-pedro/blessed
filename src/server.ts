@@ -6,9 +6,18 @@ const app = fastify({
   logger: true
 })
 
-await scheduleDailyEmail()
 
-app.listen({
-  port: env.PORT,
-  host: '0.0.0.0',
-}).then(() => console.log("Server is running"))
+async function startServer() {
+  await scheduleDailyEmail()
+
+  app.listen({
+    port: env.PORT,
+    host: '0.0.0.0',
+  })
+
+  console.log("Server is running")
+}
+
+startServer().catch(err => {
+  console.error(err)
+})

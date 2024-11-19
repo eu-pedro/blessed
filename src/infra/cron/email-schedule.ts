@@ -10,7 +10,7 @@ export async function scheduleDailyEmail() {
   const sendDailyEmailUseCase = new SendDailyEmailUseCase(usersRepository, emailService)
 
   await sendDailyEmailUseCase.execute()
-  cron.schedule("*/5 * * * * *", async () => {
+  cron.schedule("6 6 * * *", async () => {
 
     if (isRunning) {
       console.log("Processo ainda em execução. Aguardando...");
