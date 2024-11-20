@@ -1,5 +1,14 @@
 import { PrismaClient } from "@prisma/client";
+export class PrismaInstance {
+  private static _instance: PrismaClient
 
-export const prisma = new PrismaClient({
-  log: ['query']
-})
+   static getInstance() {
+    if(!this._instance) {
+      this._instance = new PrismaClient({
+        log: ['query']
+      })
+    }
+
+    return this._instance
+  }
+}

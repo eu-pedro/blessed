@@ -9,7 +9,7 @@ const app = fastify({
 
 async function startServer() {
   await scheduleDailyEmail()
-
+  
   app.listen({
     port: env.PORT,
     host: '0.0.0.0',

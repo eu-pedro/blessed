@@ -1,12 +1,14 @@
 import { UsersRepository } from "@/application/repository/users-repository";
 import { UseCase } from "./usecase";
 import { IEmailService } from "../contracts/email-service";
-import { VerseRepository } from "../repository/verses/verse-repository";
+import { VersesHistoryRepository } from "../repository/verses-history-repository";
+import { verseService } from "@/infra/services/verse-service";
 
 export class SendDailyEmailUseCase implements UseCase<any, void> {
   constructor(
     private readonly userRepository: UsersRepository,
-    private readonly email: IEmailService
+    private readonly email: IEmailService,
+    private readonly verseHistoryRepository: VersesHistoryRepository,
   ) {}
 
   async execute(): Promise<void> {
@@ -14,20 +16,33 @@ export class SendDailyEmailUseCase implements UseCase<any, void> {
     const subject = "Bom dia com Jesus! ☀️";
     const messageTemplate = "Versículo do dia: ";
 
-    const control = VerseRepository.loadControl();
-    const verses = VerseRepository.loadVerses();
-    const lastIndex = control.lastSentIndex !== undefined ? control.lastSentIndex : -1;
-    const nextIndex = (lastIndex + 1) % verses.length;
-    const verse = verses[nextIndex];
+    const verses = verseService.loadVerses();
+    let randomIndex
+    let verseAlreadySent
+    
+    do {
+      randomIndex = Math.floor(Math.random() * verses.length)
+      verseAlreadySent = await this.verseHistoryRepository.findByVerseId(randomIndex)
+    } while (verseAlreadySent)
+
+    const verse = verses[randomIndex]
+    
+    await this.verseHistoryRepository.create({
+      verseId: randomIndex
+    })
 
     const message = `${messageTemplate} ${verse.verse} - ${verse.text}`;
     
-    for (const user of users) {
-        await this.email.sendEmail(user.email, subject, message);
-        console.log(`Email enviado para ${user.email}`);
-      }
-      
-    VerseRepository.saveControl(nextIndex);
-    
+    await Promise.all(
+      users.map(async (user) => {
+        try {
+          await this.email.sendEmail(user.email, subject, message);
+          console.log(`Email enviado para ${user.email}`);
+        } catch (error) {
+          console.error(`Erro ao enviar para ${user.email}:`, error);
+        }
+      })
+    );
+          
   }
 }

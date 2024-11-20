@@ -1,174 +1,217 @@
 {
   "Salmos": [
     {
+      "id": 1,
       "verse": "Salmo 1:1",
       "text": "Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores."
     },
     {
+      "id": 2,
       "verse": "Salmo 1:2",
       "text": "Antes, o seu prazer está na lei do Senhor, e na sua lei medita de dia e de noite."
     },
     {
+      "id": 3,
       "verse": "Salmo 23:1",
       "text": "O Senhor é o meu pastor, nada me faltará."
     },
     {
+      "id": 4,
       "verse": "Salmo 23:4",
       "text": "Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam."
     },
     {
+      "id": 5,
       "verse": "Salmo 119:105",
       "text": "Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho."
     },
     {
+      "id": 6,
       "verse": "Salmo 34:8",
       "text": "Provai e vede que o Senhor é bom; bem-aventurado o homem que nele se refugia."
     },
     {
+      "id": 7,
       "verse": "Salmo 46:1",
       "text": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia."
     },
     {
+      "id": 8,
       "verse": "Salmo 91:11",
       "text": "Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos."
     },
     {
+      "id": 9,
       "verse": "Salmo 121:1-2",
       "text": "Elevo os olhos para os montes: de onde me vem o socorro? O meu socorro vem do Senhor, que fez o céu e a terra."
     },
     {
+      "id": 10,
       "verse": "Salmo 37:4",
       "text": "Agrada-te do Senhor, e ele satisfará os desejos do teu coração."
     },
     {
+      "id": 11,
       "verse": "Salmo 139:14",
       "text": "Eu te louvo porque me fizeste de modo especial e admirável. Tuas obras são maravilhosas, e disso tenho plena certeza."
     },
     {
+      "id": 12,
       "verse": "Salmo 40:1",
       "text": "Esperei com paciência pelo Senhor, e ele se inclinou para mim e ouviu o meu clamor."
     },
     {
+      "id": 13,
       "verse": "Salmo 27:1",
       "text": "O Senhor é a minha luz e a minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei?"
     },
     {
+      "id": 14,
       "verse": "Salmo 34:19",
       "text": "Muitas são as aflições do justo, mas o Senhor o livra de todas."
     },
     {
+      "id": 15,
       "verse": "Salmo 56:3",
       "text": "Em qualquer tempo em que eu temer, confiarei em ti."
     },
     {
+      "id": 16,
       "verse": "Salmo 100:4",
       "text": "Entrai pelas portas dele com gratidão, e em seus átrios com louvor; louvai-o e bendizei o seu nome."
     },
     {
+      "id": 17,
       "verse": "Salmo 150:6",
       "text": "Tudo quanto tem fôlego louve ao Senhor. Louvai ao Senhor."
     },
     {
+      "id": 18,
       "verse": "Salmo 55:22",
       "text": "Lança o teu cuidado sobre o Senhor, e ele te susterá; nunca permitirá que o justo seja abalado."
     },
     {
+      "id": 19,
       "verse": "Salmo 37:5",
       "text": "Entrega o teu caminho ao Senhor; confia nele, e ele tudo fará."
     },
     {
+      "id": 20,
       "verse": "Salmo 46:10",
       "text": "Aquietai-vos e sabei que eu sou Deus; sou exaltado entre as nações, sou exaltado na terra."
     },
     {
+      "id": 21,
       "verse": "Salmo 119:11",
       "text": "Escondi a tua palavra no meu coração, para eu não pecar contra ti."
     },
     {
+      "id": 22,
       "verse": "Salmo 19:1",
       "text": "Os céus declaram a glória de Deus; o firmamento proclama a obra das suas mãos."
     },
     {
+      "id": 23,
       "verse": "Salmo 62:1",
       "text": "Somente em Deus a minha alma espera silenciosa; dele vem a minha salvação."
     },
     {
+      "id": 24,
       "verse": "Salmo 30:5",
       "text": "O choro pode durar uma noite, mas a alegria vem pela manhã."
     },
     {
+      "id": 25,
       "verse": "Salmo 84:10",
       "text": "Porque vale mais um dia nos teus átrios do que mil em outro lugar; prefiro estar à porta da casa do meu Deus a habitar nas tendas da perversidade."
     },
     {
+      "id": 26,
       "verse": "Salmo 145:18",
       "text": "O Senhor está perto de todos os que o invocam, de todos os que o invocam com sinceridade."
     },
     {
+      "id": 27,
       "verse": "Salmo 118:24",
       "text": "Este é o dia que o Senhor fez; regozijemo-nos e alegremo-nos nele."
     },
     {
+      "id": 28,
       "verse": "Salmo 103:2-3",
       "text": "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios. É ele que perdoa todas as tuas iniquidades e cura todas as tuas enfermidades."
     },
     {
+      "id": 29,
       "verse": "Salmo 63:3",
       "text": "Porque a tua graça é melhor do que a vida; os meus lábios te louvarão."
     },
     {
+      "id": 30,
       "verse": "Salmo 8:3-4",
       "text": "Quando contemplo os teus céus, obra dos teus dedos, a lua e as estrelas que estabeleceste, que é o homem, para que te lembres dele, e o filho do homem, para que o visites?"
     },
     {
+      "id": 31,
       "verse": "Salmo 147:3",
       "text": "Ele cura os quebrantados de coração e liga as suas feridas."
     },
     {
+      "id": 32,
       "verse": "Salmo 25:4-5",
       "text": "Faze-me conhecer os teus caminhos, Senhor; ensina-me as tuas veredas. Guia-me na tua verdade e ensina-me, pois tu és o Deus da minha salvação; em ti espero o dia todo."
     },
     {
+      "id": 33,
       "verse": "Salmo 46:10",
       "text": "Aquietai-vos e sabei que eu sou Deus; serei exaltado entre as nações, serei exaltado sobre a terra."
     },
     {
+      "id": 34,
       "verse": "Salmo 27:14",
       "text": "Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor."
     },
     {
+      "id": 35,
       "verse": "Salmo 121:7-8",
       "text": "O Senhor te guardará de todo mal; ele guardará a tua alma. O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre."
     },
     {
+      "id": 36,
       "verse": "Salmo 32:8",
       "text": "Instruir-te-ei e ensinar-te-ei o caminho que deves seguir; guiar-te-ei com os meus olhos."
     },
     {
+      "id": 37,
       "verse": "Salmo 73:26",
       "text": "Ainda que a minha carne e o meu coração desfaleçam, Deus é a fortaleza do meu coração e a minha herança para sempre."
     },
     {
+      "id": 38,
       "verse": "Salmo 92:12",
       "text": "O justo florescerá como a palmeira, crescerá como o cedro no Líbano."
     },
     {
+      "id": 39,
       "verse": "Salmo 9:9",
       "text": "O Senhor é também um alto refúgio para o oprimido, um alto refúgio em tempos de angústia."
     },
     {
+      "id": 40,
       "verse": "Salmo 16:11",
       "text": "Tu me farás conhecer a vereda da vida, a alegria plena da tua presença, eterno prazer à tua direita."
     },
     {
+      "id": 41,
       "verse": "Salmo 18:2",
       "text": "O Senhor é a minha rocha, a minha fortaleza e o meu libertador; o meu Deus é o meu rochedo, em quem me refugio; o meu escudo e a força da minha salvação, o meu alto refúgio."
     },
     {
+      "id": 42,
       "verse": "Salmo 25:7",
       "text": "Não te lembres das minhas transgressões da mocidade, nem das minhas rebeliões; segundo a tua misericórdia, lembra-te de mim, por causa da tua bondade, Senhor."
     },
     {
+      "id": 43,
       "verse": "Salmo 34:18",
       "text": "Perto está o Senhor dos que têm o coração quebrantado, e salva os de espírito abatido."
     }
