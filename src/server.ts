@@ -1,23 +1,12 @@
-import fastify from 'fastify'
 import { env } from './env'
 import { scheduleDailyEmail } from './infra/cron/email-schedule'
-
-const app = fastify({
-  logger: true
-})
+import { app } from './app'
 
 
-async function startServer() {
-  await scheduleDailyEmail()
-  
-  app.listen({
-    port: env.PORT,
-    host: '0.0.0.0',
-  })
-
-  console.log("Server is running")
-}
-
-startServer().catch(err => {
-  console.error(err)
+app.listen({
+  port: env.PORT,
+  host: '0.0.0.0',
+}).then(async () => {
+  console.log('Server is running!')
+  // await scheduleDailyEmail()
 })
