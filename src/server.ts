@@ -8,5 +8,5 @@ app.listen({
   host: '0.0.0.0',
 }).then(async () => {
   console.log('Server is running!')
-  // await scheduleDailyEmail()
+  await scheduleDailyEmail()
 })
