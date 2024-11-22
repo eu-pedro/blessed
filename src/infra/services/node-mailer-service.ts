@@ -16,7 +16,7 @@ export class NodeMailerService implements IEmailService {
 
   async sendEmail(to: string, subject: string, text: string): Promise<void> {
     await this.transporter.sendMail({
-      from: '"Pedrão" <seuemail@dominio.com>',
+      from: '"Pedro Henrique" <seuemail@dominio.com>',
       to,
       subject,
       text,
