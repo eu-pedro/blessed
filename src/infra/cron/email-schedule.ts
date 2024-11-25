@@ -14,7 +14,7 @@ export async function scheduleDailyEmail() {
   const versesHistoryRepository = new PrismaVersesHistoryRepository(prismaClient)
   const sendDailyEmailUseCase = new SendDailyEmailUseCase(usersRepository, emailService, versesHistoryRepository)
 
-  cron.schedule("06 6 * * *", async () => {
+  cron.schedule("06 06 * * *", async () => {
     if (isRunning) {
       console.log("Processo ainda em execução. Aguardando...");
       return;
